@@ -1,0 +1,1023 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media only screen and (max-width: 991px)
+{
+    @media (min-width: 768px)
+    {
+        .col-md-2,.col-md-4,.width_edit_sublist,.col-md-6,.col-md-8,.col-md-10,.col-md-12
+        {
+            flex: none;
+            max-width: none;
+        }
+    }
+}
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-item
+{
+    margin-left: 30px;
+}
+
+.header
+{
+    background: url("../imgs/header.png") no-repeat top center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    /*height:685px;*/
+    /*position: relative;*/
+    overflow: hidden;
+}
+
+.header .overlay
+{
+    /*position: absolute;*/
+    width: 100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    color: #FFF;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .header .overlay
+    {
+        text-align: center;
+    }
+}
+
+.uppercase
+{
+    text-transform: uppercase;
+}
+
+.axit
+{
+    font-size: 80px;
+    font-weight: 900;
+}
+
+.axit span
+{
+    font-weight: normal;
+    color: #ff8b38;
+}
+
+.text-h
+{
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header hr
+{
+    border-top: 2px solid rgba(255,255,255,1);
+    width: 60px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .header hr
+    {
+        margin: 1rem auto 1rem auto;
+    }
+}
+
+.header button
+{
+    background-color: transparent;
+    color: #FFF;
+    border-radius: 0;
+    margin-top: 25px;
+    border: 2px solid #FFF;
+    padding: 8px 30px 8px 30px; 
+}
+
+@media only screen and (max-width: 991px)
+{
+    .header button
+    {
+        margin:15px 0px 40px 0px;
+    }
+}
+
+.header form
+{
+    max-width:361px;
+    /*height: 364px;*/
+    background-color: #FFF;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: auto;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .header form
+    {
+        margin: 0px auto 0px auto;
+    }
+}
+
+.header form h5
+{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 15px;
+}
+
+.header form h5 span
+{
+    color: #ff8b38;
+}
+
+.header form .form-control
+{
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #e2d9d9;
+    width: 80%;
+    margin: 40px auto 40px auto ;
+    box-shadow: none;
+}
+
+.header form input[type="submit"]
+{
+    background-color: #ff8b38;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    margin-top: 10px;
+    color: #FFF;
+    transition: color .15s ease-in-out;
+}
+
+.header form input[type="submit"]:hover
+{
+  color: black;
+}
+
+.header .centering
+{
+    /*margin-top: 136px ;*/
+    /*margin-top: 25vh;*/
+    padding: 136px 0px 90px 0px;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .header .centering
+    {
+        padding: 136px 0px 60px 0px; 
+    }
+}
+
+/*Social*/
+
+.social 
+{
+    padding-top: 20px;
+    box-shadow: 0px 0px 3px #000;
+    background-color:#fff;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .social
+    {
+        text-align: center;
+    }
+}
+
+.social h6
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.social p
+{
+    color: #afa7a7;
+}
+
+.social i
+{
+    margin-left: 27px;
+    color: #ccc;
+    margin-top: 12px;
+    font-size: 48px;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .social i
+    {
+        font-size: 33px;
+        margin-bottom: 20px;
+    }
+}
+
+.social .fa-facebook-f:hover
+{
+    color: #3b5998;
+    transition: color .15s ease-in-out;
+}
+
+.social .fa-twitter:hover
+{
+    color: #1da1f2;
+    transition: color .15s ease-in-out;
+}
+
+.social .fa-google-plus-g:hover
+{
+    color: #dd4b39;
+    transition: color .15s ease-in-out;
+}
+
+.social .fa-pinterest:hover
+{
+    color: #bd081c;
+    transition: color .15s ease-in-out;
+}
+
+.social .fa-instagram:hover
+{
+    color: #fcaf45;
+    transition: color .15s ease-in-out;
+}
+
+.social .fa-stumbleupon:hover
+{
+    color: #eb4924;
+    transition: color .15s ease-in-out;
+}
+
+.social .fa-rss:hover
+{
+    color: #f26522;
+    transition: color .15s ease-in-out;
+}
+
+/* start taps */
+
+.tabs-content
+{
+    padding: 150px 0px 100px 0px;
+    background-color: #f5f5f5;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .tabs-content
+    {
+        padding: 70px 0px 70px 0px;
+    }
+}
+
+.tabs-content .list-tabs
+{
+    list-style-type: none;
+}
+
+.tabs-content .list-tabs li
+{
+    width: 110px;
+    min-height: 110px;
+    background-color: #333333;
+    margin-bottom: 1px;
+    color: #FFF;
+    text-align: center;
+    line-height:110px;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .tabs-content .list-tabs li
+    {
+        width: auto;
+    }
+}
+
+.tabs-content .list-tabs li:first-child
+{
+    border-radius: 5px 5px 0px 0px;
+}
+
+.tabs-content .list-tabs li:last-child
+{
+    border-radius: 0px 0px 5px 5px;
+}
+
+.tabs-content .list-tabs .selected
+{
+    background-color: #ff8b38;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .tabs-content .content
+    {
+        text-align: center;
+    }
+}
+
+.tabs-content .content h5
+{
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .tabs-content .content h5
+    {
+        margin: 25px 0px 12px 0px;
+    }
+}
+
+.tabs-content .content p
+{
+    color: #afa7a7;
+}
+
+.tabs-content .content button
+{
+    background-color: #ff8b38;
+    padding: 10px 20px 10px 20px;
+    color: #FFF;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .tabs-content .content button
+    {
+        margin-top: 10px;
+    }
+}
+
+.tabs-content .content #div2,#div3
+{
+    display: none;
+}
+
+/* end taps */
+
+/* start sublist */
+
+.sublist
+{
+    padding: 90px 0px 90px 0px;
+    background-color:#FFF;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .sublist
+    {
+        padding: 50px 0px 50px 0px;
+    }
+}
+
+@media only screen and (max-width: 991px)
+{
+    .sublist .content
+    {
+        text-align: center;
+    }
+}
+
+.sublist .content h5,.standard h5
+{
+    font-weight: bold;
+}
+
+.sublist .content hr,.standard hr
+{
+    width: 60px;
+    height: 1px;
+    background-color: #ff8b38;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .sublist .content hr,.standard hr
+    {
+        margin: 20px auto 20px auto;
+    }
+}
+
+.sublist .content p,.standard p
+{
+    color:#afa7a7;
+    font-size: 14px;
+}
+
+.sublist .content i
+{
+    border: 2px solid #ff8b38;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 41px;
+    color: #ff8b38;
+    margin-top: 25px;
+}
+
+.sublist .content i:hover
+{
+    background-color: #ff8b38;
+    color: #FFF;
+    transition: color .15s ease-in-out;
+}
+
+.sublist .content .title
+{
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+/* end sublist */
+
+/* start standard */
+.standard
+{
+    padding: 90px 0px 60px 0px;
+    background-color: #f5f5f5;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .standard
+    {
+        padding: 40px 0px 20px 0px;
+    }
+}
+
+.standard .content,.sublist .content
+{
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .standard .content
+    {
+        text-align: center;
+    }
+}
+
+.standard .content
+{
+    margin-top: 40px;
+}
+/* end standard */
+
+/* start standard */
+.awesome
+{
+    padding: 90px 0px 90px 0px;
+    text-align: center;
+    background-color: #FFF;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .awesome
+    {
+        padding: 60px 0px 50px 0px;
+    }
+}
+
+.awesome .content h1
+{
+    font-family:'Raleway';
+}
+
+.awesome hr
+{
+    width: 60px;
+    height: 1px;
+    background-color: #ff8b38;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 20px auto 20px auto;
+}
+
+.awesome p
+{
+    color:#afa7a7;
+    font-size: 14px;
+}
+
+.awesome .tabs
+{
+    margin-top: 80px;
+}
+
+.awesome .tabs i
+{
+    border: 2px solid #ff8b38;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 66px;
+    color: #ff8b38;
+    margin-bottom: 20px;
+}
+
+.awesome .tabs i:hover
+{
+    background-color: #ff8b38;
+    color: #FFF;
+    transition: color .15s ease-in-out;
+}
+
+.awesome .tabs h5
+{
+    font-weight: bold;
+}
+/* end standard */
+
+/* start pricing */
+.pricing
+{
+    padding: 90px 0px 80px 0px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .pricing
+    {
+        padding: 70px 0px 60px 0px;
+    }
+}
+
+.pricing .content h1
+{
+    font-family:'Raleway';
+}
+
+.pricing .content hr
+{
+    width: 60px;
+    height: 1px;
+    background-color: #ff8b38;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 20px auto 20px auto;
+}
+
+.pricing .content p
+{
+    color:#afa7a7;
+    font-size: 14px;
+    margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .pricing .content p
+    {
+        margin-bottom: 50px;
+    }
+}
+
+.pricing .box1,.pricing .box2,.pricing .box3
+{
+    max-width: 345px;
+}
+
+.pricing .box1,.pricing .box3
+{
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .pricing .box1,.pricing .box2,.pricing .box3
+    {
+        margin: 0px auto 0px auto;
+    }
+}
+
+.pricing .box1 h6,.pricing .box2 h6,.pricing .box3 h6
+{
+    font-weight: bold;
+    padding: 15px;
+    background-color: #333333;
+    color: #FFF;
+    border-bottom: 1px solid #FFF;
+    margin: 0px;
+}
+
+.pricing .box1 .mid,.pricing .box2 .mid,.pricing .box3 .mid 
+{
+    background-color: #333333;
+    color: #FFF;
+    font-family: "Raleway";
+    border-bottom: 4px solid #ff8b38;
+}
+
+.pricing .box1 .mid .s-dollar,.pricing .box2 .mid .s-dollar,.pricing .box3 .mid .s-dollar
+{
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.pricing .box1 .mid .price,.pricing .box2 .mid .price,.pricing .box3 .mid .price
+{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.pricing .box1 .mid .info,.pricing .box2 .mid .info,.pricing .box3 .mid .info
+{
+    color:#afa7a7;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.pricing .box1 ul,.pricing .box2 ul,.pricing .box3 ul
+{
+    list-style-type: none;
+    background-color: #FFF;
+    color:#afa7a7;
+    font-size: 14px;
+}
+
+.pricing .box1 ul li,.pricing .box2 ul li,.pricing .box3 ul li
+{
+    padding: 10px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.pricing .box1 ul li:last-child,.pricing .box2 ul li:last-child,.pricing .box3 ul li:last-child
+{
+    border-bottom:none;
+}
+
+.pricing .box2 .most-popular
+{
+    color: #FFF;
+    background-color:#ff8b38;
+    padding: 10px 10px 6px 10px;
+    width: 100%;
+    display: block;
+}
+/* end pricing */
+
+/* start rating */
+.rating
+{
+    padding: 90px 0px 90px 0px;
+    background-color:#FFF;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .rating
+    {
+        padding: 60px 0px 30px 0px;
+    }
+}
+
+.rating .content h1
+{
+    font-family:'Raleway';
+}
+
+.rating .content hr
+{
+    width: 60px;
+    height: 1px;
+    background-color: #ff8b38;
+    margin: 20px auto 20px auto;
+}
+
+.rating .content p
+{
+    color:#afa7a7;
+    font-size: 14px;
+    margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .rating .content p
+    {
+        margin-bottom: 60px;
+    }
+}
+
+.rating .people p
+{
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 2px;
+    color:#afa7a7;
+    font-size: 14px;
+    width:auto;
+    margin-bottom: 24px;
+}
+
+.rating .people p:after
+{
+    content: " ";
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: #f5f5f5 transparent transparent transparent;
+    position: absolute;
+    left: 36px;
+    bottom: 65px;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .rating .people p:after
+    {
+        bottom: 105px;
+    }
+    
+    .rating .people .media
+    {
+        margin-bottom: 40px;
+    }
+}
+
+.rating .people .media .media-body
+{
+    margin-top: 14px;
+}
+
+.rating .people .media .media-body h5
+{
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.rating .people .media .media-body span
+{
+    color:#afa7a7;
+    font-size: 14px;
+}
+
+/* end rating */
+
+/* start stylish */
+.stylish
+{
+    background: url("../imgs/u25_state0.jpg") no-repeat top center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    /*height: 340px;*/
+}
+
+.stylish .overlay
+{
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 70px 0px 70px 0px;
+    color: #FFF;
+    text-align: center;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .stylish .overlay
+    {
+        padding: 55px 0px 60px 0px;
+    }
+}
+
+.stylish .overlay h1
+{
+    font-family:'Raleway';
+}
+
+.stylish .overlay hr
+{
+    width: 60px;
+    height: 1px;
+    background-color: #FFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 20px auto 20px auto;
+}
+
+.stylish .overlay p
+{
+    color:#afa7a7;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.stylish .overlay button
+{
+    background-color: transparent;
+    color: #FFF;
+    border-radius: 0;
+    border: 2px solid #FFF;
+    padding: 8px 30px 8px 30px; 
+}
+
+.stylish .overlay button:hover
+{
+    background-color: #f5f5f5;
+    transition: color .15s ease-in-out;
+    color: #000;
+}
+/* end stylish */
+
+/* start contact us */
+.contact
+{
+    padding: 110px 0px 50px 0px;
+    background-color:#FFF;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .contact
+    {
+        padding: 50px 0px 50px 0px;
+    }
+}
+
+.contact .content h1
+{
+    font-family:'Raleway';
+}
+
+.contact .content hr
+{
+    width: 60px;
+    height: 1px;
+    background-color: #ff8b38;
+    margin: 20px auto 20px auto;
+}
+
+.contact .content p
+{
+    color:#afa7a7;
+    font-size: 14px;
+    margin-bottom: 80px;
+}
+
+.contact form input[type="text"],.contact form input[type="email"]
+{
+    border-radius: 0px;
+    border:none;
+    border-bottom: 1px solid #cecece;
+    background-color: transparent;
+    box-shadow: none;
+    
+}
+
+.contact form input:nth-child(2),.contact form input:nth-child(3)
+{
+    margin-top: 25px;
+}
+
+.contact form .message
+{
+    height: 100%;
+    border-radius: 0px;
+    border:none;
+    background-color: transparent;
+    border-bottom: 1px solid #cecece;
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .contact form .message
+    {
+        margin-top: 50px;
+    }
+}
+
+.contact form button
+{
+    margin: 40px auto;
+    background-color: #ff8b38;
+    display: block;
+    padding: 10px 20px 10px 20px;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .contact form button
+    {
+        margin: 90px auto 0px auto;
+    }
+}
+
+.contact form button:hover
+{
+    background-color: #e0772c;
+}
+/* end contact us */
+
+/* start footer */
+footer
+{
+    padding: 20px 0px 0px 0px;
+    background-color:#000;
+    text-align: center;
+    color: #CCC;
+}
+
+footer i
+{
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+footer p
+{
+    color:#808080;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+footer .fa-facebook-f
+{
+    margin-left: 0px;
+}
+
+footer .fa-facebook-f:hover
+{
+    color: #3b5998;
+    transition: color .15s ease-in-out;
+}
+
+footer .fa-twitter:hover
+{
+    color: #1da1f2;
+    transition: color .15s ease-in-out;
+}
+
+footer .fa-google-plus-g:hover
+{
+    color: #dd4b39;
+    transition: color .15s ease-in-out;
+}
+
+footer .fa-pinterest:hover
+{
+    color: #bd081c;
+    transition: color .15s ease-in-out;
+}
+
+footer .fa-instagram:hover
+{
+    color: #fcaf45;
+    transition: color .15s ease-in-out;
+}
+
+footer .fa-stumbleupon:hover
+{
+    color: #eb4924;
+    transition: color .15s ease-in-out;
+}
+
+footer .fa-rss:hover
+{
+    color: #f26522;
+    transition: color .15s ease-in-out;
+}
+
+/* end footer */
